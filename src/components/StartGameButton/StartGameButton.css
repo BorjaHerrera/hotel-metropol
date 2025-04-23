@@ -1,0 +1,14 @@
+.start-button {
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-family: var(--hm-russian-font);
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--hm-color-2);
+  cursor: pointer;
+}
+
+.start-button:hover {
+  color: var(--hm-color-3);
+  transform: scale(1.05);
+}

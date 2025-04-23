@@ -1,0 +1,36 @@
+.clue-div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: var(--hm-padding-l);
+}
+
+.img-clue {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.clue-div p {
+  font-size: 1.4rem;
+  padding-top: var(--hm-padding-xs);
+  padding-bottom: var(--hm-padding-m);
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 550px) {
+  .clue-div p {
+    font-size: 1.2rem;
+    width: 90%;
+  }
+}
+@media (max-width: 450px) {
+  .clue-div p {
+    font-size: 1.1rem;
+  }
+}

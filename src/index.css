@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Prosto+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  /* FONTS */
+  --hm-russian-font: 'Prosto One', sans-serif;
+  --hm-intro-font: 'Courier Prime', monospace;
+  --hm-text-font: 'Roboto', sans-serif;
+
+  /* BRANDING COLORS */
+
+  --hm-color-1: #efecf3;
+  --hm-color-2: #00776f;
+  --hm-color-3: #fdc700;
+  --hm-color-4: #e08f8e;
+
+  /* SPACINGS */
+  --hm-margin-xxs: 5px;
+  --hm-margin-xs: 10px;
+  --hm-margin-s: 20px;
+  --hm-margin-m: 30px;
+  --hm-margin-l: 40px;
+  --hm-margin-xl: 50px;
+  --hm-margin-xxl: 100px;
+  --hm-margin-xxxl: 150px;
+  --hm-margin-xxxxl: 180px;
+
+  --hm-padding-xxs: 5px;
+  --hm-padding-xs: 10px;
+  --hm-padding-s: 20px;
+  --hm-padding-m: 30px;
+  --hm-padding-l: 40px;
+  --hm-padding-xl: 60px;
+  --hm-padding-xxl: 100px;
+  --hm-padding-xxxl: 150px;
+
+  --hm-gap-xxs: 5px;
+  --hm-gap-xs: 10px;
+  --hm-gap-s: 20px;
+  --hm-gap-m: 30px;
+  --hm-gap-l: 40px;
+  --hm-gap-xl: 50px;
+  --hm-gap-xxl: 100px;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--hm-secondary-font);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hidden {
+  display: none;
+}
+
+html,
+body {
+  height: 100%;
+}

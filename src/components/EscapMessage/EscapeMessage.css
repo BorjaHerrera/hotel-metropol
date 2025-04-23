@@ -1,0 +1,26 @@
+.final-message {
+  font-family: var(--hm-text-font);
+  font-size: 1.7rem;
+  color: var(--hm-color-1);
+  width: 50%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media (max-width: 1000px) {
+  .final-message {
+    width: 70%;
+  }
+}
+
+@media (max-width: 650px) {
+  .final-message {
+    width: 80%;
+  }
+}
+
+@media (max-width: 450px) {
+  .final-message {
+    font-size: 1.4rem;
+  }
+}
