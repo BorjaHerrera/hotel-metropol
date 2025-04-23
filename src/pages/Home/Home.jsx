@@ -1,4 +1,4 @@
-import BackgroundHome from '../../components/BackgroundHome/backgroundHome';
+import BackgroundHome from '../../components/BackgroundHome/BackgroundHome';
 import { StartGameButton } from '../../components/StartGameButton/StartGameButton';
 import './Home.css';
 
