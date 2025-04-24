@@ -20,7 +20,7 @@ const riddleData = [
       'El Conde Rostov reconoció desde su sillón a varios agentes encubiertos en busca de traidores. Había escuchado los rumores: les daban un número y, tenían que responder el código correcto. Si no lo hacían eran arrestados… o algo peor.',
     question:
       'A primero le dijeron 8, y respondió 4. A segundo, 14, respondió 7. Al tercero 18 y dijo 9. El siguiente 0, y respondió 0. Todos fueron arrestados. Es tu turno. Para salir de aquí, responde correctamente a estos números: 7, 4, 5, 2.',
-    clue: 'Escucha los números, no pienses en su valor matemático.',
+    clue: 'Hay más números en las palabras que en su propio significado.',
     options: [
       'A. 5, 4, 4, 2',
       'B. 3, 5, 4, 5',
